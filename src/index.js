@@ -8,9 +8,10 @@ var app = express()
 var port = process.env.PORT || 9000
 
 app.set('view engine', 'ejs')
+app.set('views', __dirname + '/views');
 app.use(expressLayouts)
 
-app.use(express.static(path.join(__dirname, 'public')))
+app.use(express.static(path.join(__dirname, './public')))
 app.use('/', require('./routes'))
 
 app.listen(port)

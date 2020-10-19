@@ -1,10 +1,3 @@
-<img src=".asset/.banner.png" width="100%" />
-
-### Tutorial 101: Basic HTML CSS with Express JS & EJS
-
-Hi! welcome to Tutorial 101..
-in this tutorial we will learn about how to build html & css basic with ExpressJS as main engine and EJS for the template engine. So let's get started!
-
 #### 1. Installation
 
 As we use ExpressJS as the main engine, we need to know that we will use [NodeJS](https://nodejs.org/en/ "NodeJS") and [npm](https://www.npmjs.com/ "npm")
