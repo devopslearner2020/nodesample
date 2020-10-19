@@ -1,0 +1,22 @@
+{
+  "name": "kubernetes",
+  "version": "1.0.0",
+  "description": "kubernetes nodejs hello world project",
+  "scripts": {
+  	"start":"node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [   
+    "ExpressJS",
+    "NodeJS",
+    "kubernetes"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "express-ejs-layouts": "^2.2.0"
+  }
+}
