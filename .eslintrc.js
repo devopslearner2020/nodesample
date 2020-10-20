@@ -17,19 +17,18 @@ module.exports = {
   },
   rules: {
     'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
-    'no-alert': 0, //禁止使用alert confirm prompt
-    'no-array-constructor': 2, //禁止使用数组构造器
-    'no-bitwise': 0, //禁止使用按位运算符
-    'no-caller': 1, //禁止使用arguments.caller或arguments.callee
-    'no-catch-shadow': 2, //禁止catch子句参数与外部作用域变量同名
-    'no-class-assign': 2, //禁止给类赋值
+    'no-alert': 0,
+    'no-array-constructor': 2,
+    'no-bitwise': 0,
+    'no-caller': 1,
+    'no-catch-shadow': 2,
+    'no-class-assign': 2,
     'no-cond-assign': 2, //禁止在条件表达式中使用赋值语句
     'no-console': 'off', // "warn" // "off" //禁止使用console2
     'no-const-assign': 2, //禁止修改const声明的变量
     'no-constant-condition': 2, //禁止在条件中使用常量表达式 if(true) if(1)
     'no-continue': 0, //禁止使用continue
     'no-control-regex': 2, //禁止在正则表达式中使用控制字符
-    'no-debugger': 2, //禁止使用debugger2
     'no-delete-var': 2, //不能对var声明的变量使用delete操作符
     'no-div-regex': 1, //不能使用看起来像除法的正则表达式/=foo/
     'no-dupe-keys': 2, //在创建对象字面量时不允许键重复 {a:1,a:1}
@@ -119,8 +118,6 @@ module.exports = {
       { terms: ['todo', 'fixme', 'xxx'], location: 'start' }
     ], //不能有警告备注
     'no-with': 2, //禁用with
-    'import/no-unresolved': 0, //导入vue组件
-    'import/extensions': 2, //导入js
     'array-bracket-spacing': [2, 'never'], //是否允许非空数组里面有多余的空格
     'arrow-parens': 0, //箭头函数用小括号括起来
     'arrow-spacing': 0, //=>的前/后括号

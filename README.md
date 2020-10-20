@@ -1,11 +1,13 @@
-# node-express-helloworld with jest
+# node-express-helloworld project with jest and eslint
 
-# Build
+node.js express helloworld sample
+
+# How to start
+
 npm install
-npm build
-
-# Start
 npm start
 
-# Unit test
-npm test
+# How to lint
+
+npm run lint
+npm run lint:fix
