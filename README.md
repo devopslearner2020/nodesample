@@ -1,8 +1,11 @@
-# node-express-helloworld
+# node-express-helloworld with jest
 
-node.js express helloworld sample
+# Build
+npm install
+npm build
 
-build: express --view=pug helloworld
-cd helloworld && npm install
+# Start
+npm start
 
-run: DEBUG=helloworld:\* npm start
+# Unit test
+npm test
