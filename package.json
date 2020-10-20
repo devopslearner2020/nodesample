@@ -1,22 +1,29 @@
 {
-  "name": "kubernetes",
-  "version": "1.0.0",
-  "description": "kubernetes nodejs hello world project",
+  "name": "helloworld",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-  	"start":"node ./src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www",
+    "dev": "webpack-dev-server --hot --inline",
+    "test": "jest --config .jest.config.js",
+    "build": "webpack",
+    "tests:unit": "jest --config=.jest.config.js",
+    "tests:component": "jest --config=.jest.config.js",
+    "test:watch": "npm run test -- --watchAll",
+    "lint": "npm eslint --config .eslintrc.js .",
+    "lint:fix": "npm run lint -- --fix"
   },
-  "keywords": [   
-    "ExpressJS",
-    "NodeJS",
-    "kubernetes"
-  ],
-  "author": "",
-  "license": "MIT",
   "dependencies": {
-    "body-parser": "^1.15.2",
-    "ejs": "^2.5.2",
-    "express": "^4.14.0",
-    "express-ejs-layouts": "^2.2.0"
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "eslint": "^7.11.0",
+    "express": "^4.17.1",
+    "flow-typed": "^3.2.1",
+    "jest": "^23.6.0",
+    "jest-extended": "^0.11.5",
+    "morgan": "^1.9.1",
+    "pug": "^3.0.0",
+    "serve-favicon": "^2.5.0",
+    "supertest": "^5.0.0"
   }
 }
