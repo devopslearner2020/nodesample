@@ -5,9 +5,15 @@ node.js express helloworld sample
 # How to start
 
 npm install
+
 npm start
 
 # How to lint
 
 npm run lint
+
 npm run lint:fix
+
+# How to do unit test
+
+npm test
