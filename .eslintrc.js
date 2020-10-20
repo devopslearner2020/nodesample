@@ -184,7 +184,7 @@ module.exports = {
     semi: ['error', 'always'], 
     'semi-spacing': [0, { before: false, after: false }], 
     'sort-vars': 0, 
-    'space-after-keywords': [0, 'always'], 格
+    'space-after-keywords': [0, 'always'], 
     'space-before-blocks': [0, 'always'], 
     'space-before-function-paren': [0, 'always'], 
     'space-in-parens': [0, 'never'], 
